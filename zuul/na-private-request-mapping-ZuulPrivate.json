@@ -1,0 +1,4698 @@
+{
+  "requests": [
+    {
+      "requestType": "accountcredit", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "accountdebit", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "accountdetails", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "accounthistory", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "accountsearch", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "bankaccountbalance", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "createaccount", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "externalreselleraccountadjustment", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "modifyaccount", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "resellertransaction", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "resellertransactionsearch", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "saferesellertransactionsearch", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "setaccountstatus", 
+      "serviceName": "bank"
+    }, 
+    {
+      "requestType": "accountbalance", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "accountbalanceold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "createcustomer", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "createcustomerold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "creategroupcategory", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "crmgetstatecodes", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "findcustomer", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "findcustomerold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getaccountusers", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getcustomeractivities", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getcustomeractivitiesold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getcustomerhistory", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getcustomerhistoryold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getgroupcategory", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getgroupcategoryold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getgroups", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getgroupsold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "getstatecodesold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "grouporderinfo", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "grouporderinfoold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "groupsalescreategroup", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "groupsalescreategroupold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "groupsaleseditgroup", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "groupsaleseditgroupold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "groupsaleslookup", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "groupsaleslookupold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "modifycustomer", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "modifycustomerold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "oldgetgroups", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "updateorderinformation", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "updateorderinformationold", 
+      "serviceName": "crm"
+    }, 
+    {
+      "requestType": "cp_addeventwaitlist", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_addrelationship", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_createdependent", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_createdependentotherinfo", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_createemailmessage", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_createplaceholder", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_createplaceholderdependent", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_deleteemailmessage", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getalerts", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getdependentotherinfo", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getdraftedemails", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getemailmessagebody", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getemailvariablelist", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_geteventwaitlist", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getrelationshipconstants", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getsavedpaymenttokens", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_getsentemails", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_lostpasswordemail", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_mergedependents", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_mergeprofiles", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_profilesearch", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_removeeventwaitlist", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_sendaccountupdateemail", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_sendemail", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_updateall", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_updatedependent", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_updatedependentotherinfo", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_updateemailmessage", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cp_updateeventwaitlist", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "emailtask", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "eventwaitlistnotificationtask", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_addguest", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_changepassword", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_createprofile", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_generatepasswordtoken", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_getprofile", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_guestlookup", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_login", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_logout", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_passwordtokenswap", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_randompassword", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_resetpassword", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "ignore_cp_updateprofile", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "profilechangenotificationtask", 
+      "serviceName": "customerprofile"
+    }, 
+    {
+      "requestType": "cybersource-authorize", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-capture", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-check-account-updater-status", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-createjwk", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-credit", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-pull-account-updater-report", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-push-account-update", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-reversal", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "cybersource-void", 
+      "sharedServiceRoute": true, 
+      "serviceName": "cyber"
+    }, 
+    {
+      "requestType": "addemailschedule", 
+      "serviceName": "emailscheduling"
+    }, 
+    {
+      "requestType": "getemailschedule", 
+      "serviceName": "emailscheduling"
+    }, 
+    {
+      "requestType": "removeemailschedule", 
+      "serviceName": "emailscheduling"
+    }, 
+    {
+      "requestType": "sendscheduledemailstask", 
+      "serviceName": "emailscheduling"
+    }, 
+    {
+      "requestType": "addressformat", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "addresssearchtask", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "idme", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "mailchimpsubscribe", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "processorderapis", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "reviewexpresscreate", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "transmitiposttask", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "transmitmailchimporderstask", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "transmitmatteltask", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "tripadvisorcheckoptin", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "tripadvisortask", 
+      "serviceName": "externalutilities"
+    }, 
+    {
+      "requestType": "guestimage", 
+      "sharedServiceRoute": true, 
+      "serviceName": "guestimage", 
+      "shouldAuthenticate": true
+    }, 
+    {
+      "requestType": "addremovepermgroupsonuser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addremoveresellerlocationonuser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addremoveusersonlocation", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addremoveusersonpermgroup", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addresellerusertoreportingone", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addupdatepermgroup", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addupdatereselleruser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "addupdateuser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "adduserapplication", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "affiliatelogin", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "deleteuserinformation", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getallusernames", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getallusers", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getapplicationinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getapplications", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getapplicationsettings", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getapplicationsettingsinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getenvironments", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getlocations", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getpermgroupapplicationsettings", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getpermgroupmerchants", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getpermgroupsforuser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getpermgroupsinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getreselleraffiliatecredentials", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getreselleraffiliateipwhitelist", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getreselleraffiliateurls", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getresellerlocations", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getroles", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getuseractivityinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getuserapplicationinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getuserapplicationsettinginfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getuserapplicationsettings", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getuserlist", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getusermerchantinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getuserpermissions", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getusers", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "getusersforpermgroup", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "heartbeat", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "ignore_changepassword", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "ignore_resetpassword", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "inactiveusertask", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "isreselleruserinreporting", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "keepalivetoken", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "login", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "logingetgroups", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "logout", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "modifyreselleraffiliatecredentials", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "modifyreselleraffiliateipwhitelist", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "modifyreselleraffiliateurls", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "passportlogin", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "requestlogs", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "reselleraffiliatelogin", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "savepermgroupappsandsettings", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "savepermgroupmerchants", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "saveusermanagementinfo", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "sendtemppassword", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "setusersecretkey", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "tradeslogin", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "twofactorauth", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "unlockuser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "updateuserapplicationsandsettings", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "updateusermerchant", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "updateuserprofile", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "usersearch", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "verifyb2buserlogin", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "verifytemppassword", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "verifyuser", 
+      "serviceName": "login"
+    }, 
+    {
+      "requestType": "sendemail", 
+      "serviceName": "mailservice"
+    }, 
+    {
+      "requestType": "sendemailwithoutconnection", 
+      "serviceName": "mailservice"
+    }, 
+    {
+      "requestType": "sendemail_validated", 
+      "serviceName": "mailservice"
+    }, 
+    {
+      "requestType": "getpurchasedetails", 
+      "serviceName": "masterpass"
+    }, 
+    {
+      "requestType": "getrequesttoken", 
+      "serviceName": "masterpass"
+    }, 
+    {
+      "requestType": "retransmitfailedpostbacktask", 
+      "serviceName": "masterpass"
+    }, 
+    {
+      "requestType": "sendpostback", 
+      "serviceName": "masterpass"
+    }, 
+    {
+      "requestType": "memberships", 
+      "sharedServiceRoute": true, 
+      "serviceName": "memberships", 
+      "shouldAuthenticate": true
+    }, 
+    {
+      "requestType": "account-updater-task", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "addmerchant", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "adyenenrollmentcheck3ds", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "adyenupdate3dsresult", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "authorize", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "authstatus", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "capture", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "createdebit", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "createjwk", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "createjwt", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "credit", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "enrollmentcheck3ds", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "ewalletauthorization", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_authorize", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_authstatuscheck", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_capture", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_createjwk", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_createjwt", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_credit", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_enrollmentcheck3ds", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_ewalletauthorization", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_getpaymentmerchantinfo", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_initiateapplepaysession", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_reauth", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_reversal", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_validate3ds", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_voidcapture", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "external_voidcredit", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "getcybersourcemerchantposinfo", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "getpaymentmerchantinfo", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "initiateapplepaysession", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "marktokensforupdate", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "migrationrefund", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "notifications", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "reauth", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "recurringauthsearch", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "reversal", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "tokenizecepayauth", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "tokenizecepayorderforrefund", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "updateadyenmerchant", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "updatecybersourcemerchant", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "updatedebitdetails", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "validate3ds", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "velocitycheck", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "voidcapture", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "voidcredit", 
+      "sharedServiceRoute": true, 
+      "serviceName": "payment"
+    }, 
+    {
+      "requestType": "deferredbillingtask", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "getmembershipbillingstatus", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "getmembershipemailtemplates", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "getmembershippaymentdetails", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "manualmembershipbilling", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "membershipbillingtask", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "paymentplanautoreleasevendorevents", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "paymentplansendpaymentnotice", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "paymentplansendreactivatenotice", 
+      "serviceName": "paymentplan"
+    }, 
+    {
+      "requestType": "decrypttofile", 
+      "serviceName": "rsaencryption"
+    }, 
+    {
+      "requestType": "processstoredxml", 
+      "serviceName": "rsaencryption"
+    }, 
+    {
+      "requestType": "securedeletefile", 
+      "serviceName": "rsaencryption"
+    }, 
+    {
+      "requestType": "activateseasonpass", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "getcountrycodes", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "getstatecodes", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "returnticketstatus", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassdetailsearch", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassfulfillmentsearch", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassholderprintloginsert", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassholdersearch", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassholderticketsload", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassholderupdate", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassimagedelete", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassimagesave", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassload", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpasslookup", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpasslookupbyseasonpassid", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpassnumbersearch", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpasssearch", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "seasonpasstransfer", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "updateticketstatus", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "validateseasonpassid", 
+      "serviceName": "seasonpass"
+    }, 
+    {
+      "requestType": "addremovemerchantalertemails", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "checktillthreshold", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "getmerchantsessions", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "getsessionbillingtypes", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "getsessiondetails", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "getsessiontransactions", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "initiatesessioncashout", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "recordsessioncashlift", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "recordsessioncashout", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "sessionclose", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "sessionclosev2", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "sessionlookup", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "sessionopen", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "sessionopenv2", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "setsessionstatus", 
+      "serviceName": "sessionmanager"
+    }, 
+    {
+      "requestType": "getsignature", 
+      "serviceName": "signature"
+    }, 
+    {
+      "requestType": "savesignature", 
+      "serviceName": "signature"
+    }, 
+    {
+      "requestType": "activatepass", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "addguest", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "batchactivatepass", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "bookreservation", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cancelorder", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cancelreservation", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cancelticket", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "capacitymonitortask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "changepassword", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_addguest", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_changepassword", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_createprofile", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_generatepasswordtoken", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_getprofile", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_getwtpreloadlist", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_guestlookup", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_login", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_logout", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_passwordtokenswap", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_randompassword", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_resetpassword", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "cp_updateprofile", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "createprofile", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "deactivatepass", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "deferredpayment", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "deferredpaymentinfo", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "generatepasswordtoken", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getkeywordcalendar", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getkeywordcombocreator", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getliabilityinfo", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getmpctcalendar", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getprofile", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getrenewalseasonpassinfo", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getreservationavailability", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getreservationavailability2", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getresourceusage", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "getwtpreloadlist", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "guestlookup", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "inventorymonitortask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "memberbenefits", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "memberbenefitsavailability", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "memberbenefitssummary", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "passwordtokenswap", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "placereservationhold", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "randompassword", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "resetpassword", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "retransmitfailedrequesttask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "storedvaluecardauth", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "storedvaluecardgetbalance", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "storedvaluecardvoidauth", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "test", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "transfertoken", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "transmitexacttargetthfmtask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "transmitorder", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "transmitorderexacttargetthfm", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "transmitordertask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "updatecapacity", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "updateprofile", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "userlogin", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "userlogout", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "validatecart", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "verifyegiftcardtask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "verifynewuser", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "verifyorder", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "verifyorderculturaltask", 
+      "serviceName": "siriusware"
+    }, 
+    {
+      "requestType": "activateticket", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addalternatecardnumber", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addcallhistory", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addccwhitelist", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addeditbooking", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addemailwhitelist", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addordercharacteristic", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addordercharacteristics", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addreceiptdata", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addticketcharacteristic", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "addticketcharacteristics", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "batchcancelmembership", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "bookingconfirmationemail", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "bookingportallogin", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "cancelfuturepayments", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "cancelmembership", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "cancelorderinternal", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "cancelresellerreservation", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "cancelresellerreservationtask", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "cancelstoredvaluecard", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "canceltickets", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changecard", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changecustomeremail", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changecustomername", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changecustomerphone", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changecustomertype", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changedayofcharge", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeorderstatus", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changequantitysold", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changesalesagent", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeshippingaddress", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeshippingmethod", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeshippingname", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeticketaccessdetails", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeticketcharacs", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeticketeventdate", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changeticketeventresource", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changetraveleventdatetime", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "changevendoractive", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "chargeunreturneddevicefee", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "checkqueuedprintjobs", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "checkticketusage", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "createreasoncode", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "deactivateticket", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "deferredorderpaymentdetails", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "deletecasenote", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "deletereasoncode", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "deletetoken", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "donosale", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "emailreceipt", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "entitlementusagestatuses", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "eventdetails", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "eventsearch", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "externalemailreceipt", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "externalpartialmembershiprefund", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "externalpayment", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "externalrefundprocessingfee", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "fullrefund", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "generatenewvalidationkey", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getapprovedvouchervendorlist", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getbulkbarcodes", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getbulkorderdetails", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getbulkorders", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getbulkticketdetails", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getcallcategories", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getcharacswhitelist", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "geteventcalendardates", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getislandsettings", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getmembershipholdaccruedpayments", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getmembershippaymentamount", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getmembershippaymentdatechangefee", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getmerchanthotels", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getnewrateid", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getordercharacs", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getorderstatuses", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getprintformats", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getquoteimage", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getreasoncodes", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getreceiptdata", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getrecentorders", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getrecentresellerorders", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getresellerorder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getshippingmethods", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getspformats", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "getvendorticketcharacsbyorder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "ignore_cancelreservation", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "ignore_deactivatepass", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "loqbookingconfirmationemail", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "loqbookingportallogin", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "ordersearch", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "ordersearchrecent", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "orderstatus", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "partialdeferredrefund", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "partialmembershiprefund", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "partialrefund", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "paymentportallogin", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "placemembershipaccountonhold", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "printathomeorder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "processcollectionsorder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "queueorderprintjob", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "quickordersearch", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundandreset", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundbulkbarcodes", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundcartadjustment", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refunddeposit", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundminusshipping", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundorder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundordertickets", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundresellertransaction", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundreservation", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundshipping", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundtaxcalculator", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "refundtickets", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "removemembershiplatefee", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "removeprintjobfromqueue", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "resellerordersearch", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "reservationsearch", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "rezrefundpreview", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sendgiftreceiptemail", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sendreservationsummary", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "setcallcategories", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "seteventnote", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sethashvalue", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "setordercharacs", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "setorderstransmit", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "shippedemail", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparaddupdatecreditcardinfo", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparexternaladdaddon", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparexternalmodifypass", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "spargetseasonpassoptions", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparlogin", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparsaveforminfo", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparsetautorenewseasonpass", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparsyncmappings", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparupdaterenewalcodes", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "sparupdateuserinfo", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "storedvaluetransfer", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "unlockguest", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "unlockpaymentportal", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "unprintorder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updatebillinginfo", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updategiftreceiptemail", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updateloqbooking", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updatemembershippaymentdate", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updatereasoncode", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updateseasonpassautorenewal", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "updateticketentitlements", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "validationaddaccounts", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "validationdeletereseller", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "validationupdatereseller", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "vieworder", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "vieworderdetailed", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "vieworderdetailedsecure", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "vieworderlight", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "vieworderlightsecure", 
+      "serviceName": "smp"
+    }, 
+    {
+      "requestType": "checkoutwithpayment", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "ignore_createprofile", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "ignore_getreservationavailability", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "pingexternal", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "refresheventcapacity", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "refresheventcapacitytask", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "refresheventmanifestcache", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "reservetickets", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "updatebarcode", 
+      "serviceName": "ticketmaster"
+    }, 
+    {
+      "requestType": "addcartitem", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "addticketnotes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "assignnewbarcode", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "canceleventhold", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "cc_reversal", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "checkcart", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "clearcache", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "comparemplcalls", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "convertresellerreservation", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "convertresellerreservationtask", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "createcart", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "deactivatepackage", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "deletesavedpurchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "environmentinfo", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "externalpaymentstatuschange", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "externalpurchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "finishreservation", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getaccesspoints", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getaccountvendors", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getallproducts", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getapplicationconfig", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getapplicationconsolidated", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getapplicationlocale", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getapplicationlocalewithmpoverride", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getapplicationnavigationtree", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getcachesize", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getcartitemdetails", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getcartsummary", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getcreditcardbininfo", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getcustomertypeavailability", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getdailynotes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "geteventdates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "geteventdatesbycalendar", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "geteventresources", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "geteventsbyvendor", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getform", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getgiftcardbalance", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getgiftcoderemainingcount", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmachinedetails", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantdetails", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantexchangerates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantkeywords", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantlist", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackageaddons", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackagecharacteristic", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackagedetails", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackageeventdates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackagelist", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackagelistbackup", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchantpackagesinfo", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchanttaxbrackets", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmerchanttree", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getmpctcharacs", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getnewcartid", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getorderforminfo", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getorderidbycartid", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpackageavailability", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpackageforms", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpackageprintformat", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpackageprintformatlist", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpackageswaps", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getparkhours", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpaymentschedule", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getproduct", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getproductaccesspoints", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getproductavailability", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getprogramlist", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getpromocodes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getresellerdetails", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getreservationcart", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getresourcessoldbyday", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getseasonpasscount", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getstoredvaluebalance", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getstoredvaluehistory", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "gettaxestimate", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getticketinfo", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "gettravelrouteeventcalendartimes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "gettravelrouteeventdates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "gettravelroutes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getvendordetails", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getwizarddayprices", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getwizardmpeventdates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getwizardmpeventtimes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getwizardparkprices", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "handleaccertifyresolution", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "ignore_getaccountusers", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "ignore_getkeywordcalendar", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "ignore_getresourceusage", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "incrementprintathomecount", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "modifyeventhold", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "mplcomparison", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "passportbulkbarcodepurchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "placeeventhold", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "prepurchaseauth", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "printorder", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "purchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "purchaseorder", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "purchasereservation", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "purchasesavedpurchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "purchasestatus", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "releaseeventresource", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "removecartitems", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "requesteventresource", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "requestsmscode", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "resendsmsreceipt", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "reserveorder", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "retrievecart", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "retrievetokens", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "savecart", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "savedpurchaseauthstatus", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "savepurchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "searcheventdates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "sparexternalpurchase", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "storedvalueprecheck", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "ticketprinted", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "updatecartcheckoutinfo", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "updatecartdates", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "updatecartitems", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "updatedailynotes", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "updatepaymentbatchid", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "updatesoldresources", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "validateage", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "validateemail", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "verifydeferredpackages", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "verifyrefundpassword", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "verifysmscode", 
+      "serviceName": "tix"
+    }, 
+    {
+      "requestType": "getactivemerchantsforreseller", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddb2blocation", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddemailwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddeventtopackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddmerchantpackagetotier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddpromolevel", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveb2bipwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovedcitimemappings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovedynamicfees", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovedynamicpricefees", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveentitlementblackoutdates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveipwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovemasterbillingtypesonreseller", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovemerchanthotelrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovemerchantpackagelinks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovemplinkrecursivemultipacks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovepackagegroupcharacs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovepackageongroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovepackageonsalestier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovepricingstructureonrate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveresellerapplicationconfig", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveresellerbillinginfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovereselleripwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveresellerpackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveresellerrate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremoveserviceipwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovesparrenewalcodeparents", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovetradestagsongroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovetradestagsonreseller", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovetradestagsonsalestier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddremovezipcodegroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddrezpaidinfulldeadline", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateapplicationconfigs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateapprovedvouchervendors", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatecharacswhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatecontactcategory", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatecustomertypegroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatedeletereselleroverride", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatedeletesalestieroverride", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatedpgiftpackages", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatedpmemcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatedpmemcodesaddons", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateevententitlementbookinginfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateeventresources", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatefeecategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatehotels", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateislandexchangerates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemasterbillingtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantbillingproviderpaymenttyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantcurrencyrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantexchangerateoverrides", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantfinancialgroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantlocaleposprintformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantrefundbillingtyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantrefundpaymenttyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantresellerreservationautotasks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantreservationautotasks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchanttaxtiers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatemerchantvouchervendorrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatempcteventcalendarrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepackageadjustment", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepackageclass", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepackagegroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepackagerelationships", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepackagerelationshiptypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepackagetemplate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateposreceiptxml", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepricingstructure", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepricingstructureheader", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatepricingstructureref", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateprintformat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdaterefundpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateregexlocalemerchantoverrides", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateregexlocales", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatereselleraccountinvoiceoption", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateresellerbillingproviderpaymenttyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateresellercontact", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateresellerpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdaterezpaymentglcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateseasonpassexpiredaterules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatesparrenewalcodemappings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatespprintformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatestrikeoffgiftoffersettings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatetaxtiers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatete2merchantvenuerefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdateticketinvoicetiming", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatetradestaggroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatetradestags", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatetravelroutes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatetravelstops", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatewizarddaypricingdays", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmaddupdatewizarddaypricingtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassociatemerchantsresellers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassociatemerchantstomerchantfinancegroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassociatemerchanttotier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassociateresellercontactcategory", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassociateresellertotier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassociatesubcattocat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmassocticketcodetopkgcusttype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmbuildrateschedule", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmclearcache", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcopymerchantpackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateaccesspoint", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateaffiliatemerchant", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatebasicmerchant", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatecustomertype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateevent", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateeventcalendar", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateeventdates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatefeetype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateform", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreategiftcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemachine", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemembershipfee", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemembershiprate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemembershipratefee", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchant", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchantglcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchantpackagebundle", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchantpackagecomp", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchantpackagerate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchantpromocode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchantpromocodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatemerchanttier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateofferid", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatepackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreaterole", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatesalescategory", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreateuser", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatevariablesetting", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatevendor", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatevendoragent", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatevendordevice", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmcreatevendortickettype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeleteaccesspoint", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeleteb2blocation", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeleteemailwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletegiftcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemachine", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemachinelog", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemembershipfee", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemembershiprate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemembershipratefee", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemerchant", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemerchantpackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletemerchantpackagerate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletempctgateprice", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeleteofferid", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeleterole", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletesalescategory", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletevariablesetting", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletevendor", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletevendoragent", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdeletevendordevice", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmdomath", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmexportmerchantpackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmexportsubretails", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetaccesspoints", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetaffectedticketingrates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetaliaspackages", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetalllocations", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetallmerchants", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetallresellers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetapplicationconfigs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetapplicationdevices", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetapplicationlocales", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetapplicationnavigationtree", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetapplications", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetapprovedvouchervendors", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetb2bipwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetb2blocations", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetbifeedarchivefiles", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetbifeeds", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetbillingproviders", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetbillingtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetbocaformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetbulkbarcodemerchants", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetcharacswhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetcontactcategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetcreditcardtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetcurrencies", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetcustomertypegroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetcustomertypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdcitimemappings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdiscounttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdistinctextramovies", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdistinctmerchantcharacs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdistinctmerchantpackagecharacs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdpgiftpackages", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdpglcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdpmemcodeaddoncategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdpmemcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdpmemcodesaddons", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdynamicfees", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdynamicfeetypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetdynamicpricefees", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetemailwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetentitlementblackoutdates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetentitlementclasses", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetentitlementrules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgeteventcalendars", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgeteventcharacs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgeteventdates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetevententitlementbookings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetevententitlements", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgeteventlist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgeteventpackages", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgeteventresources", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetevents", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetfeecategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetfeetypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetformcategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetforms", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetgeolocgroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetgiftcodecount", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetgiftcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetglcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgethotels", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetimagelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetipwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetislandexchangerates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetislandtransmitstatus", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetkeywords", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetlanguages", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetlocationinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmachinelogs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmachines", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmachinetypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmasterbillingtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmaxids", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmembershiprates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantalertemails", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantbillingproviderpaymenttyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantcurrencyrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantdetails", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantexchangerateoverrides", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantfinancialgroupmerchants", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantfinancialgroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantfinancialgroupsequences", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchanthotelrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantlist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantlocaleposprintformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantlocales", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpackagecustomertypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpackagedetails", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpackagelinks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpackagelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpackagesfiltered", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantpricingstructurerates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantrefundbillingtyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantrefundpaymenttyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantresellerreservationautotasks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantreservationautotasks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchants", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchanttaxtiers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchanttiers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchanttimestamp", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantvendorproductids", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmerchantvouchervendorrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmpcteventcalendarrefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmplinkrecursivemultipacks", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmplinkrecursivemultipacksfrom", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetmplinkrecursivemultipacksto", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetofferids", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackageadjustmentpricingstructures", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackageadjustments", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackageclasses", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagegroupinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagegroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagegrouptypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagemerchants", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagerelationships", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagerelationshiptypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpackagetemplates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpaymentschedules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpaymenttypecombinations", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetposprintformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetposreceiptxml", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpricingstructuresheader", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpricingstructuresref", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetprintathomeformatbymovie", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetprintathomeformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetprintformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetprintmovienames", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetprintmovies", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetpromolevels", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetratepricingstructures", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetrefundpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetregexlocalemerchantoverrides", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetregexlocales", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetreselleraccountinvoiceoptions", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerapplicationconfig", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerbillinginfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerbillingproviderpaymenttyperefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellercontacts", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellercustomercategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellercustomersubcategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetreselleripwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerlocations", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetreselleroverrides", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerpaymentgroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellerpaymenttypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetresellertaxgroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetreservationautotaskrules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetrezpaidinfulldeadlinerefdates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetrezpaidinfulldeadlines", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetrezpaymentglcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetroles", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsalescategories", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsalestierinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsalestierlist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsalestieroverrides", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetscandevicetypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetseasonpassdaterangerules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetseasonpassexpiredaterules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetserviceipwhitelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsessionstatustypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsetupguideinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetshippingmethods", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsparrenewalcodemappings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetsparrenewalcodeparents", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetspformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetspprintformats", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetstrikeoffgiftoffersettings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettaxbrackets", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettaxcalculationtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettaxtiers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgette2merchantvenuerefs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetticketcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetticketinvoicetimings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettimezonelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettips", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettrackerentitlements", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettradessalespersons", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettradestaggroupinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettradestaggroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettradestaginfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettradestags", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettransmissionfailedorders", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettravelroutes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgettravelstops", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetuserchangelog", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetuserchangelogquerycount", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetuserchangelogrequestxml", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvariablesettings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendoragents", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendordevices", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendorproductidcustomertypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendors", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendorticketcharacs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendorticketcodedetails", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendorticketcodelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendorticketcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendorticketinventorycount", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendortickettypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendortimestamp", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetvendortransmitstatus", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetwizarddaypricingdays", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetwizarddaypricingtypes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmgetzipcodegroups", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmimportresellers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmlinkmembershipratetoticketingrate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmloadticketblock", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmakeprimaryresellercontact", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyaccesspoint", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyaffiliatemerchant", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyapplicationconfigs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyapplicationlocales", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyapplicationnavigationtree", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyb2blocation", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifybocaformat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyevent", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyeventandgroupdateinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyeventcalendar", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyeventcalendardates", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyeventpackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyfeetype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyform", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyformactivestatus", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifygiftcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyglcodes", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyislandtransmitstatus", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymachine", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymembershipfee", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymembershiprate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymembershiprateprice", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchant", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantapisettings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantkeywords", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantpackagecomp", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantpackagedeposit", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantpackagefees", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantpackagerate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantpackageratetaxdetails", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchantpromocode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifymerchanttier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyofferid", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifypackage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyprintathomecharac", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyprintathomeformat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyprintformat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyprintmovie", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyrole", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifysalescategory", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifysalestier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyseasonpassdaterangerules", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyseasonpassformat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifysubretail", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifysubretailglcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifysubretailtax", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifysubretailtaxglcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifytrackerentitlement", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvariablesetting", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvendor", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvendoragent", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvendorapisettings", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvendordevice", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvendortickettype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmmodifyvendortransmitstatus", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmremovemerchantpackagefromtier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmremovepackageentitlement", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmreordermerchantpackagetier", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmreordermerchanttiers", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmrequestmachinelog", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmrunbifeeds", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsendbifeedarchivefiles", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsendemailblast", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetlocationactiveflag", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetmerchantreselleractiveflag", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetorderstransmitnottransmit", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetreselleractiveflag", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetresellercustcatinvis", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetresellercustsubcatinvis", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsetsalespersoninvis", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaecreateseasonticket", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaecreateshow", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaecreateticket", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetexternalpackagelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetproductcode", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetreductioninfoforcustomertype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetreductionlist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetshowlist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetshowsforvendor", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetsiaetypelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegettickettype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetvenueforvendor", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaegetvenuelist", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaelinkpackageticket", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaelinkreductioncustomertype", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaelinkvenuetovendor", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmsiaesyncmerchantpackagerate", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddentitlement", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddevent", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddeventcharacs", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddform", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddgeolocrangegroup", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddpackageentitlement", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddreseller", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddresellercustcat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddresellercustsubcat", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddresellerlocation", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdateaddsalesperson", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdatemerchantvendorticketcounts", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmupdatereselleraccountinfo", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "pmuploadimage", 
+      "serviceName": "tixmanager"
+    }, 
+    {
+      "requestType": "autoreleasevendorevents", 
+      "defaultMapping": true, 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "cartabandonmentrecoverytask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "checkdeferredemailson", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "checkmembershipemailson", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "clearmerchantpackagecachetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "creditcardtask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "cumulativeattendancetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "debitsuccessmembershippaymentupdate", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "debitsuccessmembershippaymentupdatetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "debitsuccessoverduetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "eventcapacitytask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "getdeferredemailtemplates", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "getemailtemplate", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "getorderpaymentdetails", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "getorderpaymentsstatus", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "getwizardmpeventdatestask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "merchanttimezonetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "paymentportallocktask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "piipurge", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "piipurgetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "rezrulestask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "salestask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sanitizedatatask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "savedpurchasertask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sendemailtemplate", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sendpaymentnotice", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sendqueuedemailstask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sendreactivatenotice", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sendsubsequentpaymenttask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "settleauthtask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "simulatedeferredpaymentson", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sparautorenewaltask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "sparrenewalremindertask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "triggeraccountupdatetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "triggervitalaccountupdatetask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "updatemembershippaymentdetails", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "updateorderpaymentdetails", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "updateorderpaymentstask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "updatesettlementstask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "updatetemplate", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "validatememberships", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "validateticketing", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "validationtask", 
+      "serviceName": "tixmonitor"
+    }, 
+    {
+      "requestType": "getagentvendors", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "getattendance", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "getentitlements", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "offlineprocessortask", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "scanbarcode", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "trackerlogin", 
+      "alias": "login", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "trackerlogout", 
+      "alias": "logout", 
+      "serviceName": "tracker"
+    }, 
+    {
+      "requestType": "validate", 
+      "serviceName": "tracker"
+    }
+  ]
+}

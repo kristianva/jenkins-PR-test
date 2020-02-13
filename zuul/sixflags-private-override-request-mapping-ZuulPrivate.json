@@ -1,0 +1,8 @@
+{
+  "requests": [
+    {
+      "requestType": "autoreleasevendorevents", 
+      "serviceName": "tixmonitor"
+    }
+  ]
+}
